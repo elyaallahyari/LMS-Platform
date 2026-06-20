@@ -1,5 +1,9 @@
+import { Colors } from './_components/colors'
+
 export default function Home() {
   return (
-   <div>React application architecture</div>
-  );
+    <div>
+      <Colors />
+    </div>
+  )
 }
