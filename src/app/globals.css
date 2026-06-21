@@ -54,7 +54,6 @@
   --color-warning-content: var(--clb-c-warning-content);
   --color-error: var(--clb-c-error);
   --color-error-content: var(--clb-c-error-content);
-
   --color-gradient-first: var(--clb-c-gradient-first);
   --color-gradient-second: var(--clb-c-gradient-second);
 }
