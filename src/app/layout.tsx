@@ -1,9 +1,8 @@
-import './globals.css'
-
-import { Figtree } from 'next/font/google'
-// import localFont from 'next/font/local'
+import { Footer } from './_components/footer'
 import { Header } from './_components/header'
-import { Footer } from './_components/footer/footer'
+import { Figtree } from 'next/font/google'
+import './globals.css'
+// import localFont from 'next/font/local'
 
 const figtree = Figtree({
   display: 'swap',
@@ -50,7 +49,7 @@ const figtree = Figtree({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html dir="rtl" className={` ${figtree.variable} dark`}>
+    <html dir="rtl" className={`${figtree.variable} dark`}>
       <body className="min-h-screen grid grid-rows-[80px_1fr_auto] dark:bg-base-100 dark:text-base-content">
         <Header />
         <main>{children}</main>
