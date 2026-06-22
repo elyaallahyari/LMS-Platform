@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Button } from './_components/button/button'
 export default function Home() {
   return (
     <>
@@ -24,6 +25,11 @@ export default function Home() {
           <Image src="/images/programmer-landing.svg" alt="" width={702} height={521} />
         </div>
       </section>
+      <div className="container">
+        <Button variant="info" size="large" shape="wide">
+          ثبت نام
+        </Button>
+      </div>
     </>
   )
 }
