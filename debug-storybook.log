@@ -1,0 +1,243 @@
+[21:58:09.155] [INFO] [36mInitializing Storybook[39m
+[21:58:09.987] [DEBUG] Getting package.json info for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[21:58:09.987] [INFO] Package manager: npm
+[21:58:09.990] [DEBUG] Getting CLI versions from NPM for storybook...
+[21:58:09.990] [DEBUG] Executing command: npm info storybook version
+[21:58:12.510] [INFO] Adding Storybook version 10.4.6 to your project
+[21:58:12.512] [DEBUG] Executing command: npm config get min-release-age --workspaces=false --include-workspace-root
+[21:58:12.871] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[21:58:12.872] [DEBUG] Project type detected: nextjs
+[21:58:12.872] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[21:58:12.884] [INFO] Framework detected: nextjs-vite
+[21:58:12.885] [DEBUG] Getting installed version for vitest...
+[21:58:12.887] [DEBUG] Executing command: npm ls --json --depth=99 2>/dev/null
+[21:58:15.409] [DEBUG] Executing command: npm ls --json --depth=0 2>/dev/null
+[21:58:16.984] [DEBUG] Error finding installations for vitest: ExecaError: Command failed with exit code 1: npm ls --json '--depth=0' '2>/dev/null'
+
+{
+  "version": "0.1.0",
+  "name": "lms-platform"
+}
+[21:58:16.984] [DEBUG] No installations found for vitest
+[21:58:16.984] [DEBUG] Getting installed version for msw...
+[21:58:16.984] [DEBUG] Executing command: npm ls --json --depth=99 2>/dev/null
+[21:58:19.254] [DEBUG] Executing command: npm ls --json --depth=0 2>/dev/null
+[21:58:20.750] [DEBUG] Error finding installations for msw: ExecaError: Command failed with exit code 1: npm ls --json '--depth=0' '2>/dev/null'
+
+{
+  "version": "0.1.0",
+  "name": "lms-platform"
+}
+[21:58:20.750] [DEBUG] No installations found for msw
+[21:59:38.816] [PROMPT] New to Storybook? {"choice":true}
+[21:59:38.824] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
+[21:59:45.408] [PROMPT] Would you like to install AI features (MCP addon and prompt suggestions)? {"choice":true}
+[21:59:46.126] [INFO] base-generator-task-start: Generating Storybook configuration
+[21:59:46.127] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[21:59:46.127] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[21:59:46.127] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[21:59:46.128] [INFO] base-generator-task: - Configuring ESLint plugin
+[21:59:46.129] [DEBUG] Detected flat config at /Users/elya/Documents/Web/Portfolio/lms-platform/eslint.config.mjs
+[21:59:46.194] [DEBUG] Getting CLI versions from NPM for @storybook/nextjs-vite...
+[21:59:46.194] [DEBUG] Executing command: npm info @storybook/nextjs-vite version
+[21:59:46.201] [DEBUG] Getting CLI versions from NPM for @chromatic-com/storybook...
+[21:59:46.202] [DEBUG] Executing command: npm info @chromatic-com/storybook version
+[21:59:46.205] [DEBUG] Getting CLI versions from NPM for @storybook/addon-vitest...
+[21:59:46.205] [DEBUG] Executing command: npm info @storybook/addon-vitest version
+[21:59:46.216] [DEBUG] Getting CLI versions from NPM for @storybook/addon-a11y...
+[21:59:46.216] [DEBUG] Executing command: npm info @storybook/addon-a11y version
+[21:59:46.220] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[21:59:46.220] [DEBUG] Executing command: npm info @storybook/addon-docs version
+[21:59:46.223] [DEBUG] Getting CLI versions from NPM for @storybook/addon-mcp...
+[21:59:46.223] [DEBUG] Executing command: npm info @storybook/addon-mcp version
+[21:59:46.227] [DEBUG] Getting CLI versions from NPM for vite...
+[21:59:46.227] [DEBUG] Executing command: npm info vite version
+[21:59:46.237] [DEBUG] Getting CLI versions from NPM for eslint-plugin-storybook...
+[21:59:46.237] [DEBUG] Executing command: npm info eslint-plugin-storybook version
+[22:00:00.400] [INFO] base-generator-task: - Configuring main.ts
+[22:00:00.419] [INFO] base-generator-task: - Configuring preview.ts
+[22:00:00.448] [INFO] base-generator-task: - Adding Storybook command to package.json
+[22:00:00.461] [DEBUG] Getting package.json info for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[22:00:00.461] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[22:00:00.462] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[22:00:00.465] [INFO] base-generator-task: - Copying framework templates
+[22:00:00.606] [DEBUG] Executing command: npm config get registry --workspaces=false --include-workspace-root
+[22:00:03.749] [INFO] base-generator-task-success: Storybook configuration generated
+[22:00:03.750] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[22:00:03.753] [DEBUG] Using cached installed version for vitest...
+[22:00:03.753] [DEBUG] Getting installed version for @vitest/coverage-v8...
+[22:00:03.753] [DEBUG] Executing command: npm ls --json --depth=99 2>/dev/null
+[22:00:06.701] [DEBUG] Executing command: npm ls --json --depth=0 2>/dev/null
+[22:00:09.329] [DEBUG] Error finding installations for @vitest/coverage-v8: ExecaError: Command failed with exit code 1: npm ls --json '--depth=0' '2>/dev/null'
+
+{
+  "version": "0.1.0",
+  "name": "lms-platform"
+}
+[22:00:09.329] [DEBUG] No installations found for @vitest/coverage-v8
+[22:00:09.329] [DEBUG] Getting installed version for @vitest/coverage-istanbul...
+[22:00:09.329] [DEBUG] Executing command: npm ls --json --depth=99 2>/dev/null
+[22:00:11.532] [DEBUG] Executing command: npm ls --json --depth=0 2>/dev/null
+[22:00:13.154] [DEBUG] Error finding installations for @vitest/coverage-istanbul: ExecaError: Command failed with exit code 1: npm ls --json '--depth=0' '2>/dev/null'
+
+{
+  "version": "0.1.0",
+  "name": "lms-platform"
+}
+[22:00:13.154] [DEBUG] No installations found for @vitest/coverage-istanbul
+[22:00:13.155] [INFO] adding-dependencies-task-start: Adding dependencies to package.json
+[22:00:13.156] [INFO] adding-dependencies-task: Adding devDependencies:
+- @storybook/nextjs-vite@^10.4.6
+- @chromatic-com/storybook@^5.2.1
+- @storybook/addon-vitest@^10.4.6
+- @storybook/addon-a11y@^10.4.6
+- @storybook/addon-docs@^10.4.6
+- @storybook/addon-mcp@^0.6.0
+- vite@^8.1.0
+- eslint-plugin-storybook@^10.4.6
+- vitest
+- playwright
+- @vitest/browser-playwright
+- @vitest/coverage-v8
+[22:00:13.157] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[22:00:13.157] [DEBUG] Using cached version for @storybook/nextjs-vite...
+[22:00:13.157] [DEBUG] Using cached version for @chromatic-com/storybook...
+[22:00:13.157] [DEBUG] Using cached version for @storybook/addon-vitest...
+[22:00:13.157] [DEBUG] Using cached version for @storybook/addon-a11y...
+[22:00:13.157] [DEBUG] Using cached version for @storybook/addon-docs...
+[22:00:13.157] [DEBUG] Using cached version for @storybook/addon-mcp...
+[22:00:13.157] [DEBUG] Using cached version for vite...
+[22:00:13.157] [DEBUG] Using cached version for eslint-plugin-storybook...
+[22:00:13.157] [DEBUG] Getting CLI versions from NPM for vitest...
+[22:00:13.157] [DEBUG] Executing command: npm info vitest version
+[22:00:14.943] [DEBUG] Getting CLI versions from NPM for playwright...
+[22:00:14.943] [DEBUG] Executing command: npm info playwright version
+[22:00:20.505] [DEBUG] Getting CLI versions from NPM for @vitest/browser-playwright...
+[22:00:20.505] [DEBUG] Executing command: npm info @vitest/browser-playwright version
+[22:00:21.936] [DEBUG] Getting CLI versions from NPM for @vitest/coverage-v8...
+[22:00:21.936] [DEBUG] Executing command: npm info @vitest/coverage-v8 version
+[22:00:23.441] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[22:00:23.442] [INFO] adding-dependencies-task-success: Dependencies added to package.json
+[22:00:23.443] [INFO] Installing dependencies...
+[22:00:23.444] [INFO] install-dependencies-spinner-start: Installing dependencies...
+[22:00:23.446] [DEBUG] Executing command: npm install
+[22:03:02.630] [INFO] Installing dependencies...: 
+added 135 packages, changed 2 packages, and audited 563 packages in 3m
+
+[22:03:02.630] [INFO] install-dependencies-spinner: Installing dependencies...: added 135 packages, chang
+[22:03:02.632] [INFO] Installing dependencies...: 
+196 packages are looking for funding
+  run `npm fund` for details
+
+[22:03:02.632] [INFO] install-dependencies-spinner: Installing dependencies...: 196 packages are looking 
+[22:03:02.738] [INFO] Installing dependencies...: 
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+[22:03:02.738] [INFO] install-dependencies-spinner: Installing dependencies...: 2 moderate severity vulne
+[22:03:02.829] [INFO] Dependencies installed
+[22:03:02.829] [INFO] install-dependencies-spinner-stop: Dependencies installed
+[22:03:02.843] [INFO] configure-addons-task-start: Configuring addons...
+[22:03:02.846] [INFO] configure-addons-task: Configuring @chromatic-com/storybook...
+[22:03:02.850] [INFO] configure-addons-task: @chromatic-com/storybook configured
+
+[22:03:02.850] [INFO] configure-addons-task: Configuring @storybook/addon-vitest...
+[22:03:02.857] [DEBUG] Getting package.json info for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[22:03:02.857] [DEBUG] Using cached package.json for /Users/elya/Documents/Web/Portfolio/lms-platform/package.json...
+[22:03:02.857] [DEBUG] Getting installed version for vitest...
+[22:03:02.857] [DEBUG] Executing command: npm ls --json --depth=99 2>/dev/null
+[22:03:05.288] [DEBUG] Executing command: npm ls --json --depth=0 2>/dev/null
+[22:03:07.187] [DEBUG] Error finding installations for vitest: ExecaError: Command failed with exit code 1: npm ls --json '--depth=0' '2>/dev/null'
+
+{
+  "version": "0.1.0",
+  "name": "lms-platform"
+}
+[22:03:07.187] [DEBUG] No installations found for vitest
+[22:03:07.188] [DEBUG] Vitest version specifier: 4.1.9
+[22:03:07.729] [DEBUG] Using cached installed version for vitest...
+[22:03:07.729] [DEBUG] Getting installed version for msw...
+[22:03:07.729] [DEBUG] Executing command: npm ls --json --depth=99 2>/dev/null
+[22:03:10.489] [DEBUG] Executing command: npm ls --json --depth=0 2>/dev/null
+[22:03:11.930] [DEBUG] Error finding installations for msw: ExecaError: Command failed with exit code 1: npm ls --json '--depth=0' '2>/dev/null'
+
+{
+  "version": "0.1.0",
+  "name": "lms-platform"
+}
+[22:03:11.930] [DEBUG] No installations found for msw
+[22:03:11.944] [INFO] Creating a Vitest config file:
+[22:03:11.944] [INFO] /Users/elya/Documents/Web/Portfolio/lms-platform/vitest.config.ts
+[22:03:11.955] [INFO] Setting up a11y addon for @storybook/addon-vitest
+[22:03:11.955] [INFO] Setting up a11y addon for @storybook/addon-vitest
+[22:03:11.956] [DEBUG] Executing command: npx storybook@10.4.6 automigrate addon-a11y-addon-test --loglevel silent --yes --skip-doctor --package-manager npm --skip-install
+[22:04:38.846] [INFO] a11y addon setup successfully
+[22:04:38.847] [INFO] [32ma11y addon setup successfully[39m
+[22:04:38.848] [INFO] [32m@storybook/addon-vitest setup completed successfully[39m
+[22:04:38.854] [INFO] @storybook/addon-vitest is now configured and you're ready to run your tests!
+Here are a couple of tips to get you started:
+
+• You can run tests with "[36mnpx vitest[39m"
+• Vitest IDE extension shows all stories as tests in your editor!
+
+Check the documentation for more information about its features and options at:
+https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
+[22:04:38.868] [INFO] configure-addons-task: @storybook/addon-vitest configured
+
+[22:04:38.870] [INFO] configure-addons-task: Configuring @storybook/addon-a11y...
+[22:04:38.874] [DEBUG] Executing command: npx storybook@10.4.6 automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager npm --config-dir .storybook
+[22:05:02.681] [INFO] configure-addons-task: @storybook/addon-a11y configured
+
+[22:05:02.682] [INFO] configure-addons-task: Configuring @storybook/addon-docs...
+[22:05:02.712] [INFO] configure-addons-task: @storybook/addon-docs configured
+
+[22:05:02.713] [INFO] configure-addons-task: Configuring @storybook/addon-mcp...
+[22:05:02.721] [INFO] configure-addons-task: @storybook/addon-mcp configured
+
+[22:05:02.723] [INFO] configure-addons-task-success: Addons configured successfully
+[22:05:02.725] [INFO] [2m✅ @chromatic-com/storybook[22m
+[22:05:02.735] [INFO] [2m✅ @storybook/addon-vitest[22m
+[22:05:02.736] [INFO] [2m✅ @storybook/addon-a11y[22m
+[22:05:02.736] [INFO] [2m✅ @storybook/addon-docs[22m
+[22:05:02.736] [INFO] [2m✅ @storybook/addon-mcp[22m
+[22:05:02.742] [INFO] Playwright browser binaries are necessary for @storybook/addon-vitest. The download can take some time. If you don't want to wait, you can skip the installation and run the following command manually later:
+[36mnpx playwright install chromium --with-deps[39m
+[22:05:16.155] [PROMPT] Do you want to install Playwright with Chromium now? {"choice":true}
+[22:05:16.156] [INFO] Installing Playwright browser binaries (press "c" to abort)
+[22:05:16.173] [INFO] playwright-installation-spinner-start: Installing Playwright browser binaries (press "c" to abort)
+[22:05:16.241] [DEBUG] Executing command: npx playwright install chromium --with-deps
+[22:05:24.600] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228)[2m from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip[22m
+
+[22:05:24.601] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[22:05:29.131] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228)[2m from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip[22m
+
+[22:05:29.131] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[22:05:35.738] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228)[2m from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip[22m
+
+[22:05:35.738] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[22:05:38.491] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228)[2m from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip[22m
+
+[22:05:38.491] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[22:05:40.553] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228)[2m from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip[22m
+
+[22:05:40.553] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[22:05:43.311] [INFO] Installing Playwright browser binaries (press "c" to abort): Failed to install browsers
+Error: Failed to download Chrome for Testing 149.0.7827.55 (playwright chromium v1228), caused by
+Error: Download failure, code=1
+    at ChildProcess.<anonymous> (/Users/elya/Documents/Web/Portfolio/lms-platform/node_modules/playwright-core/lib/coreBundle.js:27793:32)
+    at ChildProcess.emit (node:events:508:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+[22:05:43.311] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Failed to install browser
+[22:05:43.356] [ERROR] An error occurred while installing Playwright browser binaries. Please run the following command later: npx playwright install chromium --with-deps {"error":"ExecaError: Command failed with exit code 1: npx playwright install chromium --with-deps\n\nError: Download failed: server returned code 403 body '<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>We're sorry, but this service is not available in your location</Details></Error>'. URL: https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\n    at IncomingMessage.handleError (/Users/elya/Documents/Web/Portfolio/lms-platform/node_modules/playwright-core/lib/coreBundle.js:27916:23)\n    at IncomingMessage.emit (node:events:520:35)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\nError: Download failed: server returned code 403 body '<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>We're sorry, but this service is not available in your location</Details></Error>'. URL: https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\n    at IncomingMessage.handleError (/Users/elya/Documents/Web/Portfolio/lms-platform/node_modules/playwright-core/lib/coreBundle.js:27916:23)\n    at IncomingMessage.emit (node:events:520:35)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\nError: Download failed: server returned code 403 body '<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>We're sorry, but this service is not available in your location</Details></Error>'. URL: https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\n    at IncomingMessage.handleError (/Users/elya/Documents/Web/Portfolio/lms-platform/node_modules/playwright-core/lib/coreBundle.js:27916:23)\n    at IncomingMessage.emit (node:events:520:35)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\nError: Download failed: server returned code 403 body '<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>We're sorry, but this service is not available in your location</Details></Error>'. URL: https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\n    at IncomingMessage.handleError (/Users/elya/Documents/Web/Portfolio/lms-platform/node_modules/playwright-core/lib/coreBundle.js:27916:23)\n    at IncomingMessage.emit (node:events:520:35)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\nError: Download failed: server returned code 403 body '<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>We're sorry, but this service is not available in your location</Details></Error>'. URL: https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\n    at IncomingMessage.handleError (/Users/elya/Documents/Web/Portfolio/lms-platform/node_modules/playwright-core/lib/coreBundle.js:27916:23)\n    at IncomingMessage.emit (node:events:520:35)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n\nDownloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228) from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\nDownloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228) from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\nDownloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228) from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\nDownloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228) from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\nDownloading Chrome for Testing 149.0.7827.55 (playwright chromium v1228) from https://cdn.playwright.dev/builds/cft/149.0.7827.55/mac-arm64/chrome-mac-arm64.zip\nFailed to install browsers\nError: Failed to download Chrome for Testing 149.0.7827.55 (playwright chromium v1228), caused by\nError: Download failure, code=1\n    at ChildProcess.<anonymous> (/Users/elya/Documents/Web/Portfolio/lms-platform/node_modules/playwright-core/lib/coreBundle.js:27793:32)\n    at ChildProcess.emit (node:events:508:28)\n    at ChildProcess._handle.onexit (node:internal/child_process:294:12)\n    at getFinalError (file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/storybook/dist/_node-chunks/chunk-6U2XPXR7.js:11529:10)\n    at makeError (file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/storybook/dist/_node-chunks/chunk-6U2XPXR7.js:13065:15)\n    at getAsyncResult (file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/storybook/dist/_node-chunks/chunk-6U2XPXR7.js:15711:158)\n    at handlePromise (file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/storybook/dist/_node-chunks/chunk-6U2XPXR7.js:15697:162)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async Object.executeTaskWithSpinner (file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/storybook/dist/_node-chunks/chunk-YBD2A4LF.js:3683:11)\n    at async AddonVitestService.installPlaywright (file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/storybook/dist/_node-chunks/chunk-WPDWCGPK.js:5856:17)\n    at async AddonConfigurationCommand.execute (file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/create-storybook/dist/_node-chunks/chunk-SGWNRTQ7.js:2197:26)\n    at async doInitiate (file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/create-storybook/dist/_node-chunks/chunk-SGWNRTQ7.js:3547:3)\n    at async file:///Users/elya/.npm/_npx/05823ecb1a3a987d/node_modules/create-storybook/dist/_node-chunks/chunk-SGWNRTQ7.js:3590:20"}
+[22:05:43.356] [ERROR] playwright-installation-spinner-error: [31mAn error occurred while installing Playwright browser binaries. Please run the following command later: npx playwright install chromium --with-deps[39m
+[22:05:44.926] [WARN] Storybook setup completed, but some non-blocking errors occurred. Please check the log file below for details.
+[22:05:44.929] [INFO] To run Storybook, run [36mnpm run storybook[39m. CTRL+C to stop.
+[22:05:44.929] [INFO] Official documentation reference: [36mhttps://storybook.js.org/llms.txt[39m
+[22:05:44.930] [INFO] To finalize setting up with AI, paste this prompt to your AI agent:
+
+[38;2;255;71;133mRun `npx storybook ai setup` and follow its instructions precisely.[39m

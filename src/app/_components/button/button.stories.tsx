@@ -1,5 +1,4 @@
-// eslint-disable-next-line storybook/no-renderer-packages
-import { Meta, StoryObj } from '@storybook/react'
+import { Meta, StoryObj } from '@storybook/react-vite'
 import { Button } from './button'
 
 const meta: Meta<typeof Button> = {
