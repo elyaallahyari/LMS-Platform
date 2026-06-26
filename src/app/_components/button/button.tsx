@@ -1,7 +1,7 @@
 'use client'
-import { Size } from '../../../types/size.type'
 import classNames from 'classnames'
 import { ButtonProps, ButtonShape } from './button.types'
+import { Size } from '@/types/size.type'
 
 const sizeClasses: Record<Size, string> = {
   tiny: 'btn-xs',
