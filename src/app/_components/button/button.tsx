@@ -1,6 +1,7 @@
 'use client'
 import classNames from 'classnames'
 import { ButtonProps, ButtonShape } from './button.types'
+import { Loading } from '../loading'
 import { Size } from '@/types/size.type'
 
 const sizeClasses: Record<Size, string> = {
@@ -47,6 +48,7 @@ export const Button: React.FC<ButtonProps> = ({
 
   return (
     <button type={type} disabled={isDisabled} className={classes} {...rest}>
+      {isLoading && <Loading type={loadingType} />}
       {isLoading ? loadingText : children}
     </button>
   )

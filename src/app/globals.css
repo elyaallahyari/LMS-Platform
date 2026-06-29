@@ -1,9 +1,11 @@
 @import 'tailwindcss';
+
 @import '../tailwind/components/components.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
+  /* Base Colors */
   --current: currentColor;
   --clb-c-transparent: transparent;
   --clb-c-white: oklch(0.98 0 0 / 1);
@@ -41,6 +43,7 @@
   --clb-c-error-content: color-mix(in oklch, var(--clb-c-error), black 80%);
 }
 
+/* Apply Colors to Tailwind */
 @theme {
   --color-current: var(--current);
   --color-transparent: var(--clb-c-transparent);
