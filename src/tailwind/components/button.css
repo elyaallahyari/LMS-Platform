@@ -8,7 +8,6 @@
     transform: scale(0.97);
   }
 
-  /* default btn */
   @apply dark:border-base-200 dark:bg-base-200 dark:text-base-content dark:outline-base-content;
   @media (hover: hover) {
     &:hover {
@@ -16,7 +15,6 @@
     }
   }
 
-  /* brand colors */
   &-primary {
     @apply dark:border-primary dark:bg-primary dark:text-primary-content dark:outline-primary;
     @media (hover: hover) {
@@ -50,7 +48,6 @@
     }
   }
 
-  /* state colors */
   &-info {
     @apply dark:border-info dark:bg-info dark:text-info-content dark:outline-info;
     @media (hover: hover) {
@@ -84,7 +81,6 @@
     }
   }
 
-  /* ghost variant */
   &-ghost {
     @apply border border-transparent bg-transparent text-current outline-current;
     @media (hover: hover) {
@@ -94,7 +90,6 @@
     }
   }
 
-  /* link variant */
   &-link {
     @apply border-transparent bg-transparent dark:text-primary outline-none h-auto px-1;
     @media (hover: hover) {
@@ -104,7 +99,6 @@
     }
   }
 
-  /* outline variant */
   &-outline {
     @apply border-current bg-transparent text-base-content;
     @media (hover: hover) {
@@ -184,7 +178,6 @@
     }
   }
 
-  /* sizes */
   &-xs {
     @apply h-6 px-2 text-xs;
   }
